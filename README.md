@@ -1,11 +1,11 @@
 # Project 1: Enterprise Qualitative Risk Register & Mitigation Strategy
 
-## 📋 Executive Overview
+##  Executive Overview
 This project demonstrates the design and implementation of a Qualitative Risk Register for a mock FinTech startup ("Apex Payments"). The organization is scaling rapidly, processing credit card transactions, and adopting cloud-native infrastructure. The objective of this assessment is to identify core operational, technical, and compliance threats, analyze their inherent risk levels, and establish structured risk treatment plans to lower residual risk to acceptable thresholds.
 
 ---
 
-## 🛠️ Risk Scoring Methodology
+##  Risk Scoring Methodology
 Risks are evaluated using a standard **5x5 Qualitative Matrix** across two variables: **Likelihood** (Probability of occurrence) and **Impact** (Severity of financial, operational, or reputational damage).
 
 *   **Risk Score** = $\text{Likelihood} \times \text{Impact}$ (Scale of 1 to 25)
@@ -19,7 +19,7 @@ Risks are evaluated using a standard **5x5 Qualitative Matrix** across two varia
 
 ---
 
-## 📊 Enterprise Risk Register
+##  Enterprise Risk Register
 
 | Risk ID | Threat Scenario | Inherent L | Inherent I | Inherent Score | Compensating / Implemented Controls | Residual L | Residual I | Residual Score | Risk Treatment |
 | :--- | :--- | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :--- |
@@ -31,7 +31,7 @@ Risks are evaluated using a standard **5x5 Qualitative Matrix** across two varia
 
 ---
 
-## 🔍 Visualizing the Risk Matrix
+##  Visualizing the Risk Matrix
 Below is the qualitative mapping mapping our identified corporate risks from their raw, inherent state down to their treated, residual state.
 
 ```text
