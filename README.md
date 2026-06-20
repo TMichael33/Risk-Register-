@@ -21,14 +21,48 @@ Risks are evaluated using a standard **5x5 Qualitative Matrix** across two varia
 
 ##  Enterprise Risk Register
 
-| Risk ID | Threat Scenario | Inherent L | Inherent I | Inherent Score | Compensating / Implemented Controls | Residual L | Residual I | Residual Score | Risk Treatment |
-| :--- | :--- | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :--- |
-| **RSK-01** | **Ransomware / Malware Attack** <br> Phishing email compromises an internal employee workstation, spreading to corporate shares. | 4 | 5 | **20 (Critical)** | • Enforced corporate-wide MFA via Entra ID. <br>• Implemented weekly automated endpoint isolation via EDR. <br>• Isolated immutable cloud backups. | 2 | 4 | **8 (Medium)** | **Mitigate** (Reduce risk through active defense) |
-| **RSK-02** | **Insider Threat / Data Leakage** <br> Disgruntled employee exfiltrates sensitive customer financial records via a personal cloud drive. | 3 | 5 | **15 (Critical)** | • Implemented Role-Based Access Control (RBAC) / Least Privilege. <br>• Configured Data Loss Prevention (DLP) blocks for external domains. | 2 | 3 | **6 (Medium)** | **Mitigate** (Restrict data movement permissions) |
-| **RSK-03** | **Unpatched Vulnerability Exploitation** <br> Threat actor exploits a known critical vulnerability in an internet-facing web server. | 4 | 4 | **16 (Critical)** | • Established a strict 14-day SLA patching window for Critical CVEs. <br>• Deployed a Web Application Firewall (WAF). | 2 | 3 | **6 (Medium)** | **Mitigate** (Automate vulnerability patching lifecycle) |
-| **RSK-04** | **Third-Party Vendor Breach** <br> A critical cloud-based HR/Payroll platform experiences a data breach exposing PII. | 3 | 4 | **12 (Medium)** | • Mandatory SOC 2 Type II review prior to onboarding. <br>• Annual vendor security questionnaire and scoring evaluations. | 2 | 4 | **8 (Medium)** | **Transfer** (Add contractual indemnification clauses) |
-| **RSK-05** | **Shadow AI Data Leakage** <br> Engineering team inputs proprietary source code into an unapproved public AI tool. | 4 | 3 | **12 (Medium)** | • Enacted an Enterprise AI Acceptable Use Policy. <br>• Configured CASB (Cloud Access Security Broker) filters to block public AI URLs. | 2 | 3 | **6 (Medium)** | **Mitigate** (Employee training + technical URL blocks) |
-
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="8%">Risk ID</th>
+      <th width="25%">Threat Scenario</th>
+      <th width="8%">Inherent L</th>
+      <th width="8%">Inherent I</th>
+      <th width="10%">Inherent Score</th>
+      <th width="25%">Compensating / Implemented Controls</th>
+      <th width="8%">Residual L</th>
+      <th width="8%">Residual I</th>
+      <th width="10%">Residual Score</th>
+      <th width="15%">Risk Treatment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>RSK-01</b></td>
+      <td><b>Ransomware / Malware Attack</b><br>Phishing email compromises an internal employee workstation, spreading to corporate shares.</td>
+      <td align="center">4</td>
+      <td align="center">5</td>
+      <td align="center" bgcolor="#ffcccc"><b>20 (Critical)</b></td>
+      <td>• Enforced corporate-wide MFA via Entra ID.<br>• Implemented weekly automated endpoint isolation via EDR.<br>• Isolated immutable cloud backups.</td>
+      <td align="center">2</td>
+      <td align="center">4</td>
+      <td align="center" bgcolor="#fff2cc"><b>8 (Medium)</b></td>
+      <td><b>Mitigate</b><br>(Reduce risk through active defense)</td>
+    </tr>
+    <tr>
+      <td><b>RSK-02</b></td>
+      <td><b>Insider Threat / Data Leakage</b><br>Disgruntled employee exfiltrates sensitive customer financial records via a personal cloud drive.</td>
+      <td align="center">3</td>
+      <td align="center">5</td>
+      <td align="center" bgcolor="#ffcccc"><b>15 (Critical)</b></td>
+      <td>• Implemented Role-Based Access Control (RBAC) / Least Privilege.<br>• Configured Data Loss Prevention (DLP) blocks for external domains.</td>
+      <td align="center">2</td>
+      <td align="center">3</td>
+      <td align="center" bgcolor="#fff2cc"><b>6 (Medium)</b></td>
+      <td><b>Mitigate</b><br>(Restrict data movement)</td>
+    </tr>
+  </tbody>
+</table>
 ---
 
 ##  Visualizing the Risk Matrix
