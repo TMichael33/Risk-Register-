@@ -1,7 +1,7 @@
 # Project 1: Enterprise Qualitative Risk Register & Mitigation Strategy
 
 ##  Executive Overview
-This project demonstrates the design and implementation of a Qualitative Risk Register for a mock FinTech startup ("Apex Payments"). The organization is scaling rapidly, processing credit card transactions, and adopting cloud-native infrastructure. The objective of this assessment is to identify core operational, technical, and compliance threats, analyze their inherent risk levels, and establish structured risk treatment plans to lower residual risk to acceptable thresholds.
+This project demonstrates the design and implementation of a Qualitative Risk Register for a mock FinTech startup ("Apex Payments"). The organization is scaling rapidly, processing credit card transactions, and adopting cloud-native infrastructure. The objective of this risk assessment is to identify core operational, technical, and compliance threats, analyze their inherent risk levels, and establish structured risk treatment plans to lower residual risk to acceptable thresholds.
 
 ---
 
