@@ -44,3 +44,12 @@ P  2 | [   ] [   ] [   ] [   ] [   ]      P  2 | [   ] [   ] [   ] [   ] [   ]
      -------------------------               -------------------------
        1     2     3     4     5               1     2     3     4     5
              LIKELIHOOD                              LIKELIHOOD
+```
+
+## Key Insights & Business Alignment
+
+1. The Reality of Residual Risk: As a GRC analyst, I recognize that zero risk does not exist. Even with top-tier EDR and MFA, a clever ransomware strain can still execute (RSK-01 drops from a 20 down to an 8, but it does not hit 0). The goal is bringing the threat down below the company's Risk Appetite Threshold.
+
+2. Addressing Modern Paradigms: RSK-05 directly targets the modern challenge of Shadow AI. By pairing policy training with a technical CASB control, the company protects its intellectual property without stopping innovation.
+
+3. Framework Allignments: The controls selected above directly map back to NIST CSF 2.0 (PR.AC-1: Identity Management) and NIST 800-53 (SI-2: Flaw Remediation), making this risk register audit-ready for standard compliance verification frameworks.
